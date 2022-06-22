@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>자리 배치도</title>
+</head>
+
+<body>
+  <h2>자리 배치도</h2>
+  <p>총 인원과 한 줄에 앉는 인원을 입력하면 자리 배치도를 만듭니다.</p>
+  <hr>
+  <div id="userInput">
+    <h3>결과</h3>
+    <p>총 인원 : <span id="totalPeople"></span>명 / 한 줄에 앉는 인원 : <span id="linePeople"></span>명
+      <button id="restartBtn" onclick=location.reload()>다시하기</button>
+    </p>
+  </div>
+  <button id="startBtn" onclick=calcSeats()>시작하기</button>
+  <div id="result"></div>
+  <div id="seatCalc">
+  </div>
+  <script src="./seat.js"></script>
+</body>
+</html>
