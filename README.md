@@ -18,3 +18,9 @@
 - form > input 사용자 입력
 - addEventListner 버튼 이벤트 처리
 - preventDefault 양식 제출 시 새로고침x
+
+#### 4. 당첨자 선정 프로그램
+- form > input 사용자 입력
+- addEventListner 버튼 이벤트 처리
+- preventDefault 양식 제출 시 새로고침x
+- Math.random 무작위 번호 추출
