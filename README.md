@@ -24,3 +24,7 @@
 - addEventListner 버튼 이벤트 처리
 - preventDefault 양식 제출 시 새로고침x
 - Math.random 무작위 번호 추출
+
+#### 5. 현재 시각 표시 프로그램
+- Date
+- toLocaleTimeString
